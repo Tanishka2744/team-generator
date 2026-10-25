@@ -1,16 +1,97 @@
-# React + Vite
+# 👥 React Team Builder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive **Team Builder UI** built with React.js and CSS. Select team members, create your own team, remove members, and track your team size with a dynamic interface.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- 👥 8 fixed team members with different roles
+- ➕ Add members to your team
+- ❌ Remove selected members
+- 🔢 Dynamic team count
+- 🚫 Prevents duplicate team members
+- ✅ Visual feedback for selected members
+- 📊 Team selection progress indicator
+- 🧹 Clear team functionality
+- 🎨 Modern dark glassmorphism UI
+- 📱 Responsive design
+- ✨ Smooth hover effects and animations
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React.js
+- JavaScript (ES6+)
+- CSS3
+- Vite
 
-## Expanding the ESLint configuration
+## 🧠 React Concepts Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- `useState` for managing team state
+- Props and reusable components
+- Arrays and objects
+- `.map()` for rendering members
+- `.filter()` for removing members
+- `.some()` for preventing duplicates
+- Event handling
+- Conditional rendering
+- Dynamic CSS classes and styles
+- Dynamic UI updates
+
+## 👥 Team Members
+
+| Name | Role |
+|---|---|
+| Aarav | Frontend Developer |
+| Riya | UI/UX Designer |
+| Kabir | Backend Developer |
+| Ananya | Product Manager |
+| Vihaan | React Developer |
+| Meera | Graphic Designer |
+| Aditya | Data Analyst |
+| Ishita | QA Engineer |
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Tanishka2744/team-builder.git
+```
+
+### 2. Navigate to the project folder
+
+```bash
+cd team-builder
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
+
+```bash
+npm run dev
+```
+
+Open the local URL displayed in your terminal to view the project.
+
+## 🎯 What I Learned
+
+While building this project, I practiced React state management, reusable components, props, array methods, event handling, conditional rendering, and dynamic UI updates.
+
+I also learned how to manage selected items, prevent duplicate selections, and keep the interface synchronized with application state.
+
+## 👩‍💻 Author
+
+**Tanishka Khandelwal**
+
+Frontend Developer | React.js
+
+- GitHub: https://github.com/Tanishka2744
+- Portfolio: https://tanishka-dev.vercel.app/
+
+---
+
+⭐ If you like this project, consider giving it a star!
